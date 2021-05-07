@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TesterApi {
 	@GetMapping(value = "welcome")
 	public String welcome() {
-		return "Welcome to Spring Boot and OpenShift cluster";
+		return "Welcome to Spring Boot and OpenShift Cluster";
 	}
 }
